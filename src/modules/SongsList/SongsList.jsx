@@ -46,6 +46,9 @@ function SongsLists({ onAccentData }) {
     );
 
     const SongsList = () => {
+
+
+        SongsList?document.body.style.overflow = "hidden":document.body.style.overflow="auto";
         return (
             <>
                 {filteredSongs.map((s) => (

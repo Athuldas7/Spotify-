@@ -13,6 +13,9 @@
             display: flex;
             flex-direction: column;
             transition: transform 0.3s ease;
+            overflow-y: auto; /* Use auto for scrollable content */
+            -ms-overflow-style: none;
+            scrollbar-width: none;
 
             &__tabs {
                 display: flex;
