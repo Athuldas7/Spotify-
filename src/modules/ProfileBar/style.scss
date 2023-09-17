@@ -1,0 +1,24 @@
+.profilebar__section {
+    .profilebar {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        &__logo {
+            width: 100px;
+            height: auto;
+            padding: 32px;
+        }
+
+        &__ac img {
+            height: 50px;
+            width: 50px;
+            background-size: cover;
+            border-radius: 50%;
+            padding: 32px;
+        }
+    }
+}
+

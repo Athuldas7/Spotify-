@@ -1,0 +1,105 @@
+.music-player {
+
+    .song-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        color: #fff;
+
+        span {
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        span:last-child {
+            font-size: 16px;
+            font-weight: 400;
+            opacity: 0.6;
+        }
+    }
+
+    .cover-photo {
+        margin-top: 32px;
+
+        img {
+            width: 480px;
+            height: 480px;
+            border-radius: 8px;
+        }
+    }
+
+    .controls {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+
+        &__menu,
+        &__sound {
+            width: 48px;
+            height: 48px;
+            background-color: rgba(255, 255, 255, 0.10);
+            transition: background-color 0.2s;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                cursor: pointer;
+                background-color: rgba(255, 255, 255, 0.25);
+            }
+        }
+
+        &__btns {
+            width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .playpause-btn {
+                transition: transform 0.6s ease-in-out;
+            }
+
+            .playpause-btn:hover {
+                transform: scale(1.2);
+            }
+
+            .prev,
+            .next {
+                opacity: 0.6;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            
+            
+        }
+
+    }
+}
+
+.seek{
+    margin-top: 16px;
+    width: 480px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
